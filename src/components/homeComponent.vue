@@ -70,7 +70,8 @@
         <!--developmentService-->
 
         <!--customizeDevelopment-->
-        <div class="customizeDevelopment">
+        <div class="customizeDevelopment d-flex justify-content-between">
+            <div style="visibility:hidden">Lorem ipsum</div>
             <div class="custom">
                 <h2>Leading Custom <br> Web Development Company</h2>
                 <p class="mt-5"><b>Wichues</b> is a certified web app development company. Our bespoke, customer-centric
@@ -95,10 +96,128 @@
 
         <!--process-->
         <div class="process">
-            <h1>Our Development Process</h1>
-            <p class="text-primary">We believe in simplifying technology for you</p>
+            <div class="w-50 text-center m-auto">
+                <h1>Our Development Process</h1>
+                <p class="text-primary">We believe in simplifying technology for you</p>
+
+                <p>Our development process is carefully curated to guide you from one end to another successfully. At
+                    Wichues we give you number of reasons to choose us, one of them is our smartly designed process.
+                    From Development to Optimisation we work effectively to perfect you enterprise needs.</p>
+            </div>
+            <div class="img w-75 text-center m-auto mt-5">
+                <img src="@/assets/Screen-Shot-2022-10-06-at-08.38.41.webp" alt="Design" class="img-fluid">
+            </div>
         </div>
         <!--process-->
+
+        <!--Solutions_Div-->
+        <div class="solutions">
+            <div class="w-50 m-auto infoSol text-center">
+                <h1>Our Diverging Development Solutions for Specific Business Needs</h1>
+                <p>Serving All-Scale Businesses Globally</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 p-4" v-for="i in 4">
+                        <div class="rowOne">
+                            <div class="smallImage shadow">
+                                <img src="@/assets/small-medium.webp" v-if="(i == 1)" alt="small" class="img-fluid">
+                                <img src="@/assets/agencies.webp" v-else-if="(i == 2)" alt="small" class="img-fluid">
+                                <img src="@/assets/enterprise.webp" v-else-if="(i == 3)" alt="small" class="img-fluid">
+                                <img src="@/assets/startups.webp" v-else alt="small" class="img-fluid">
+                            </div>
+                            <div class="py-4" v-if="(i == 1)">
+                                <h2>SMBs</h2>
+                                <p>
+                                    Implementing the right web & app development approach to help small-scale businesses
+                                    earn identity in the global market. Be ready to get market exposure with our
+                                    assistance.
+                                </p>
+                            </div>
+                            <div class="py-4" v-else-if="(i == 2)">
+                                <h2>Entreprise</h2>
+                                <p>
+                                    Robust and customized enterprise mobility solutions to meet your business needs.
+                                    Each development layer is engineered with experience and expertise.
+                                </p>
+                            </div>
+                            <div class="py-4" v-else-if="(i == 3)">
+                                <h2>Startups</h2>
+                                <p>
+                                    Let your business startup reach the heights of success in no time. We do product
+                                    development for startups and make them scalable to get more funding as a brand.
+                                </p>
+                            </div>
+
+                            <div class="py-4" v-else>
+                                <h2>Agencies</h2>
+                                <p>
+                                    Our technical approach makes it accessible for offshore agencies to get great
+                                    exposure, improve businesses’ financial growth, and increase sales & marketing
+                                    potential.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Solutions_Div-->
+
+        <!--Section industrial we serve-->
+        <div class="industries py-5 text-center">
+            <h2 class="mt-5">Industries We Serve</h2>
+            <div class="container">
+                <div class="row">
+                <div class="col-3">
+                    <div class="teamItem shadow">
+                        <div class="imgBox">
+                            <div class="edu">
+                                <span>Eduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="teamItem shadow">
+                        <div class="imgBox">
+                            <div class="edu">
+                                <span>Eduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="teamItem shadow">
+                        <div class="imgBox">
+                            <div class="edu">
+                                <span>Eduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="teamItem shadow">
+                        <div class="imgBox">
+                            <div class="edu">
+                                <span>Eduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="teamItem shadow">
+                        <div class="imgBox">
+                            <div class="edu">
+                                <span>Eduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--Section industrial we serve-->
     </div>
 </template>
 
@@ -109,6 +228,69 @@
 
 
 <style scoped>
+.home{
+    overflow-x: hidden;
+}
+.teamItem{
+    overflow: hidden;
+}
+.industries h2{
+    font-weight: 700;
+    color: rgb(75, 79, 88);
+}
+.imgBox{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.teamItem .imgBox{
+    background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.webp?fit=768%2C480&ssl=1');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    min-height: 250px;
+    width:100%;
+}
+
+.teamItem .imgBox:hover{
+    background-size: 110%;
+}
+
+.edu span{
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:600;
+    position: absolute;
+    top:80%;
+    left:30%;
+    color: white;
+}
+.teamItem:hover .imgBox{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.teamItem .imgBox::before{
+    content:"";
+    position: absolute;
+    left:0;
+    top:0;
+    box-sizing:border-box;
+    height:100%;
+    width:100%;
+    transform:translateY(-100%);
+    transition: all 0.5s ease;
+    background: linear-gradient(#00000099,#cacdf1);
+}
+.teamItem:hover .imgBox::before{
+    transform: translateY(0%);
+}
+
+.teamItem:hover .imgBox::before{
+    transform: translateY(0%);
+}
+
 .home {
     position: relative;
 }
@@ -241,12 +423,9 @@ h1 {
 }
 
 .develope {
-    height: 300px;
+    min-height: 300px;
 }
 
-.customizeDevelopment{
-    position: relative;
-}
 
 .custom {
     background-image: url('@/assets/bg-blue.webp');
@@ -258,8 +437,6 @@ h1 {
     padding: 80px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    position: absolute;
-    right:0;
 }
 
 .custom h2 {
@@ -267,11 +444,59 @@ h1 {
 }
 
 .process {
-    margin-top:50%;
+    margin: 10% auto;
     text-align: center;
 }
 
-.process h2 {
+.process h1 {
+    font-weight: 700;
     color: #4b4f58;
+}
+
+.solutions {
+    background-color: #c0e0f6;
+    padding: 20px;
+}
+
+.solutions .infoSol p {
+    color: #fcb43a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rowOne {
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 370px;
+}
+
+.s {
+    min-height: 350px;
+}
+
+.smallImage {
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -8%;
+    border-radius: 10px;
+}
+
+.smallImage img {
+    width: 50%;
+}
+
+
+
+@media(max-width:768px) {
+    .customizeDevelopment .custom {
+        display: none;
+    }
 }
 </style>
