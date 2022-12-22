@@ -169,55 +169,160 @@
             <h2 class="mt-5">Industries We Serve</h2>
             <div class="container">
                 <div class="row">
-                <div class="col-3">
-                    <div class="teamItem shadow">
-                        <div class="imgBox">
-                            <div class="edu">
-                                <span>Eduction</span>
+                    <div class="col-3">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.webp?fit=768%2C480&ssl=1');">
+                                <div class="edu">
+                                    <span>Eduction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image:url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/2018_11-Lee-8.webp?fit=768%2C513&ssl=1');">
+                                <div class="edu">
+                                    <span>Food & Restaurant</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/fabio-comparelli-uq2E2V4LhCY-unsplash.webp?fit=768%2C960&ssl=1');">
+                                <div class="edu">
+                                    <span>Travel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/usman-yousaf-atn5XAZtRYE-unsplash.webp?fit=768%2C512&ssl=1');">
+                                <div class="edu">
+                                    <span>HealthCare</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="teamItem shadow">
-                        <div class="imgBox">
-                            <div class="edu">
-                                <span>Eduction</span>
+                <div class="row mt-3">
+                    <div class="col-3">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.webp?fit=768%2C480&ssl=1');">
+                                <div class="edu">
+                                    <span>Eduction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image:url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/2018_11-Lee-8.webp?fit=768%2C513&ssl=1');">
+                                <div class="edu">
+                                    <span>Food & Restaurant</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/fabio-comparelli-uq2E2V4LhCY-unsplash.webp?fit=768%2C960&ssl=1');">
+                                <div class="edu">
+                                    <span>Travel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="teamItem shadow">
+                            <div class="imgBox"
+                                style="background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/usman-yousaf-atn5XAZtRYE-unsplash.webp?fit=768%2C512&ssl=1');">
+                                <div class="edu">
+                                    <span>HealthCare</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="teamItem shadow">
-                        <div class="imgBox">
-                            <div class="edu">
-                                <span>Eduction</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="teamItem shadow">
-                        <div class="imgBox">
-                            <div class="edu">
-                                <span>Eduction</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="teamItem shadow">
-                        <div class="imgBox">
-                            <div class="edu">
-                                <span>Eduction</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
         <!--Section industrial we serve-->
+
+        <!--Section lucia-->
+        <div class="eCommerce">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-6">
+                    <div class="d-flex lucia">
+                        <img src="@/assets/fff.svg" alt="FFFSVG">
+                        <img src="@/assets/Lucia-Figma-card.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="detailCommerce">
+                        <p class="text-primary">eCommerce Solutions</p>
+                        <h2>Lucia</h2>
+                        <p> <b>Lucia</b> is an online store based on the WooCommerce Plugin.Dedicated for Women to sell
+                            and purchase products in high flexibilty system</p>
+                        <button class="btn btn-primary py-2">Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Section lucia-->
+
+        <!--Section lucia-->
+        <div class="eCommerce">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-5 sd">
+                    <div class="detailCommerce">
+                        <p class="text-primary">eLearning Solutions </p>
+                        <h2>Learner</h2>
+                        <p><b>Learner</b> is a global destination for teaching and learning online as a platform that
+                            allows instructors to build online courses on their preferred topics. Using Learner’s course
+                            development tools, instructors can upload videos, source code for developers, PDFs, ZIP
+                            files and any other content that learners might find helpful.</p>
+                        <button class="btn btn-primary py-2">Discover More</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex lucia2">
+                        <img src="@/assets/Learner-Figma-card.webp" alt="">
+                        <img src="@/assets/fff.svg" alt="FFFSVG">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Section lucia-->
+
+
+                <!--Section lucia-->
+                <div class="eCommerce">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-6">
+                    <div class="d-flex lucia">
+                        <img src="@/assets/fff.svg" alt="FFFSVG">
+                        <img src="@/assets/Jobify-Figma-Card.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="detailCommerce">
+                        <p class="text-primary">IT Solution</p>
+                        <h2>Jobify</h2>
+                        <p><b>Jobify</b>is a Full Stack Web Application created with React js and Node js, that allow users to sign up as a Candidate and create a Profile and seek for jobs, also allow companies to register as an Employer with a specific Plan and post their Jobs through a builtin Dashboard</p>
+                        <button class="btn btn-primary py-2">Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Section lucia-->
     </div>
 </template>
 
@@ -228,66 +333,98 @@
 
 
 <style scoped>
-.home{
+.eCommerce {
+    margin-top: 180px;
+}
+
+.eCommerce .sd {
+    padding-left: 80px;
+}
+
+.eCommerce .detailCommerce h2,
+.eCommerce .detailCommerce p {
+    color: #7a7a7a
+}
+
+.eCommerce .lucia img,
+.eCommerce .lucia2 img {
+    width: 60%;
+}
+
+.eCommerce .lucia img:last-child {
+    margin-left: -300px;
+}
+
+.eCommerce .lucia2 img:last-child {
+    margin-right: 50px;
+}
+
+.home {
     overflow-x: hidden;
 }
-.teamItem{
+
+.teamItem {
     overflow: hidden;
 }
-.industries h2{
+
+.industries h2 {
     font-weight: 700;
     color: rgb(75, 79, 88);
 }
-.imgBox{
+
+.imgBox {
     display: inline-block;
     overflow: hidden;
     position: relative;
-    transition:0.3s all ease ;
+    transition: 0.3s all ease;
 }
-.teamItem .imgBox{
-    background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.webp?fit=768%2C480&ssl=1');
+
+.teamItem .imgBox {
+    /* background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.webp?fit=768%2C480&ssl=1'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     min-height: 250px;
-    width:100%;
+    width: 100%;
 }
 
-.teamItem .imgBox:hover{
+.teamItem .imgBox:hover {
     background-size: 110%;
 }
 
-.edu span{
-    font-size: 35px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:600;
+.edu span {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
     position: absolute;
-    top:80%;
-    left:30%;
+    top: 80%;
+    left: 30%;
     color: white;
 }
-.teamItem:hover .imgBox{
+
+.teamItem:hover .imgBox {
     transform: scale(1.1);
     overflow: hidden;
 }
 
-.teamItem .imgBox::before{
-    content:"";
+.teamItem .imgBox::before {
+    content: "";
     position: absolute;
-    left:0;
-    top:0;
-    box-sizing:border-box;
-    height:100%;
-    width:100%;
-    transform:translateY(-100%);
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100%);
     transition: all 0.5s ease;
-    background: linear-gradient(#00000099,#cacdf1);
+    background: linear-gradient(#00000099, #cacdf1);
 }
-.teamItem:hover .imgBox::before{
+
+.teamItem:hover .imgBox::before {
     transform: translateY(0%);
 }
 
-.teamItem:hover .imgBox::before{
+.teamItem:hover .imgBox::before {
     transform: translateY(0%);
 }
 
