@@ -242,7 +242,7 @@
     display: inline-block;
     overflow: hidden;
     position: relative;
-    transition: all 1s;
+    transition:0.3s all ease ;
 }
 .teamItem .imgBox{
     background-image: url('https://i0.wp.com/wichues.com/wp-content/uploads/2022/10/happy-women-learning-language-online-isolated-flat-vector-illustration-cartoon-female-characters-taking-individual-lessons-through-messenger-education-digital-technology-concept_74855-10088.webp?fit=768%2C480&ssl=1');
